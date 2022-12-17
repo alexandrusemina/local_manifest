@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/xiaomi/veux" name="alexandrusemina/device_xiaomi_veux.git" remote="github" revision="spark" />
+</manifest>
