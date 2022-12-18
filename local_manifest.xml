@@ -15,7 +15,6 @@
    <project name="device_xiaomi_veux-kernel" path="device/xiaomi/veux-kernel" remote="me" revision="thirteen" />
         
    <!-- Hal"s -->
-   <remove-project name="LineageOS/android_hardware_qcom_display" />
    <project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="me" revision="twelve-plus" />
   
 </manifest>
