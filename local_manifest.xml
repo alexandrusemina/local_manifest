@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees -->
- <project path="device/xiaomi/veux" name="alexandrusemina/device_xiaomi_veux.git" remote="github" revision="spark" />
- 
+  <remote name="me"
+          fetch="https://github.com/alexandrusemina" />
+  
+   <!-- Device Trees -->
+   <project name="device_xiaomi_veux" path="device/xiaomi/veux" remote="me" revision="Spark" />
+
+   <!-- Vendor Trees -->
+   <project name="vendor_xiaomi_veux" path="vendor/xiaomi/veux" remote="me" revision="thirteen" />
+        
+   <!-- Kernel Trees -->     
+   <project name="kernel_xiaomi_sm8350" path="kernel/xiaomi/sm6375" remote="me" revision="snow" />
+   <project name="device_xiaomi_veux-kernel" path="device/xiaomi/veux-kernel" remote="me" revision="thirteen" />
+        
+   <!-- Hal"s -->
+   <remove-project name="LineageOS/android_hardware_qcom_display" />
+   <project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" remote="me" revision="twelve-plus" />
+  
 </manifest>
